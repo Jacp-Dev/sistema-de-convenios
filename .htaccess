@@ -1,0 +1,8 @@
+
+RewriteEngine On
+RewriteBase /sistema-de-convenios
+
+# Redirigir a error.php si la URL no es válida
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ error.php [L]
