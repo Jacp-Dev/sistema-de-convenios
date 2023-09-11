@@ -1,0 +1,1 @@
+C:\xampp\php\php.exe -f C:\xampp\htdocs\sistema-de-convenios\API\cronJobs\expiracion_convenio.php
