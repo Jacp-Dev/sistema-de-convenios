@@ -36,3 +36,6 @@ require_once('C:/xampp/htdocs/sistema-de-convenios/library/OAuth.php');
 require_once('C:/xampp/htdocs/sistema-de-convenios/library/PHPMailer.php');
 require_once('C:/xampp/htdocs/sistema-de-convenios/library/consulSQL.php');
 
+4. Una vez se suban los archivos y esté funcionando el sistema, se debe configurar el cronJobs en el servidor de correo para que el sistema pueda enviar las alertas
+teniendo en cuenta que en esta configuración se debe seleccionar el a expiracion_convenio.php que se encuentra en la carpeta cronJobs aquí muestro un ejemplo de cómo lo configuré para funcionar desde mi local.  C:\xampp\php\php.exe -f C:\xampp\htdocs\sistema-de-convenios\API\cronJobs\expiracion_convenio.p
+
