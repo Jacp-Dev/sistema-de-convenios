@@ -85,19 +85,19 @@ error_reporting(0);
 
 
 
-        $sql_vigencia = "SELECT * FROM convenio WHERE DATEDIFF(fecha_expiracion, NOW()) >= 1 AND DATEDIFF(fecha_expiracion, NOW()) <= 365";
+        $sql_vigencia = "SELECT * FROM convenio WHERE DATEDIFF(fecha_expiracion, NOW()) >= 1 AND DATEDIFF(fecha_expiracion, NOW()) <= 365 AND  habilitado =1";
         $result_vigencia = $conn->query($sql_vigencia);
         $cantidad_vigencia = $result_vigencia->num_rows;
 
 
 
-        $sql_vigente = "SELECT * FROM convenio WHERE DATEDIFF(fecha_expiracion, NOW()) > 365";
+        $sql_vigente = "SELECT * FROM convenio WHERE DATEDIFF(fecha_expiracion, NOW()) > 365 AND  habilitado =1";
         $result_vigente = $conn->query($sql_vigente);
         $cantidad_vigente = $result_vigente->num_rows ;
 
 
 
-        $sql_vencidos = "SELECT * FROM convenio WHERE DATEDIFF(NOW(), fecha_expiracion) > 0";
+        $sql_vencidos = "SELECT * FROM convenio WHERE DATEDIFF(NOW(), fecha_expiracion) > 0 AND  habilitado =1";
         $result_vencidos = $conn->query($sql_vencidos);
         $cantidad_vencidos = $result_vencidos->num_rows;
 
@@ -250,9 +250,9 @@ error_reporting(0);
       $sql = "SELECT c.nombre_institucion, c.fecha_inscripcion, c.fecha_expiracion, e.name estado, c.slug, c.habilitado
       FROM convenio c 
       INNER JOIN convenio_estados e ON e.id = c.id_estado 
-      WHERE LOWER(nombre_institucion) LIKE '%$busqueda_lower%'
+      WHERE (LOWER(nombre_institucion) LIKE '%$busqueda_lower%'
       OR LOWER(e.name) LIKE '%$busqueda_lower%'
-      OR fecha_inscripcion LIKE '%$busqueda_lower%'";
+      OR fecha_inscripcion LIKE '%$busqueda_lower%'" ) AND  habilitado =1;
 
 
       // Agrega la parte de paginación a la consulta SQL
