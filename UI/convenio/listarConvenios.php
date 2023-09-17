@@ -97,7 +97,7 @@ error_reporting(0);
             <tbody>
 
                 <?php
-                $records_per_page = 8;
+                $records_per_page = 12;
 
                 require_once '../../conexion.php';
 
