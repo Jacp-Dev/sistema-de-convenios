@@ -7,9 +7,11 @@ error_reporting(0);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iniciar sesión</title>
+  <title>Iniciar - Uniclaretiana</title>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="stylesheet" href="./assets/css/login.css">
+   <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <div class="todo">
