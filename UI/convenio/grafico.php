@@ -19,7 +19,7 @@ error_reporting(0);
    <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 
-  <title>Gestion de Convenios</title>
+  <title>Gráfico - Convenios</title>
 
 </head>
 
