@@ -14,6 +14,8 @@ error_reporting(0);
     <link rel="stylesheet" href="../../assets/css/convenio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="ruta/absoluta/convenio.css"> <!-- Reemplaza "ruta/absoluta" con la ruta correcta -->
+ <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body style="background: #E1E8EE;">
