@@ -70,7 +70,7 @@ error_reporting(0);
             <tbody>
                 <?php
 
-                $records_per_page = 5;
+                $records_per_page = 12;
 
 
                 // Conexión a la base de datos (reemplaza con tus datos de conexión)
