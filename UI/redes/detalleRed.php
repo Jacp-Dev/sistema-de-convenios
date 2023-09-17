@@ -31,7 +31,7 @@ error_reporting(0);
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <p class="text-primary fs-3">
-            <a href="./DashboardRedes.php"><i class="fa fa-arrow-left" style="color: #DF6914"></i></a>
+            <a href="./dashboardRedes.php"><i class="fa fa-arrow-left" style="color: #DF6914"></i></a>
             Detalles
           </p>
         </li>
