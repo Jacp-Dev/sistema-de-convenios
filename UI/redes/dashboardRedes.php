@@ -17,6 +17,8 @@ error_reporting(0);
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Incluir Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 
 
     <title>Gestion de redes</title>
