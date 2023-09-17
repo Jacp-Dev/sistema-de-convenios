@@ -42,7 +42,7 @@ header("Feature-Policy: none");
             <li><a href="../convenio/listarConvenios.php"><i class="fas fa-folder" style="color: #DF6914"></i> Gestión
                 de
                 convenios</a></li>
-            <li><a href="../redes/DashboardRedes.php"><i class="fas fa-network-wired" style="color: #DF6914"></i>
+            <li><a href="../redes/dashboardRedes.php"><i class="fas fa-network-wired" style="color: #DF6914"></i>
                 Gestión
                 de redes</a></li>
 
