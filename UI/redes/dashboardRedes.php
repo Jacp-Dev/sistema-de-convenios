@@ -108,7 +108,7 @@ require_once '../../header.php';
                             <h7 class="card-text" style="color: gray;">Fecha de creación:</h7>
                             <p class="card-text">' . htmlspecialchars($fecha_inscripcion) . '</p>
                             
-                            <a href="detallered.php?id_redes=' . $id_redes . '" class="btn" id="boton"><i class="fas fa-info-circle" style="color: #df6914; margin-right: 6px;"></i> Ver detalles...</a>
+                            <a href="detalleRed.php?id_redes=' . $id_redes . '" class="btn" id="boton"><i class="fas fa-info-circle" style="color: #df6914; margin-right: 6px;"></i> Ver detalles...</a>
                         </div>
                     </div>
                 </div>';
