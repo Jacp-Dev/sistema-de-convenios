@@ -13,6 +13,7 @@ error_reporting(0);
         integrity="sha512-Ti7IgZr8kXW+ybRmYqP1M5Jc6bSw+flDb9ikyBKuIWSU19PrUJiG60GXTn0rIy3wjGht1c9SoqPRRXQehVd01g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../assets/css/convenio.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
      <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 
