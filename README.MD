@@ -21,7 +21,7 @@ define("EMAIL_USERNAME", "tu_usuario_de_mailtrap"); // Nombre de usuario del cor
 define("EMAIL_PASS", "tu_contraseña_de_mailtrap"); // Contraseña del correo (Mailtrap en este caso)
 define("EMAIL_SMTPSECURE", "tls"); // Tipo de seguridad SMTP (tls, ssl, o ninguno)
 define("EMAIL_PORT", 2525); // Puerto SMTP
-define("EMAIL_ADMIN", 'convenios@uniclaretiana.edu.co'); // Dirección de correo electrónico del administrador
+define("EMAIL_ADMIN", 'convenios@correo.com'); // Dirección de correo electrónico del administrador
 Asegúrate de proporcionar los valores correctos de acuerdo a tu proveedor de correo.
 
 
