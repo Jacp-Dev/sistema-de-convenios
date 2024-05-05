@@ -42,24 +42,24 @@ error_reporting(0);
 
     emailInput.addEventListener("input", function() {
       const emailValue = emailInput.value.trim().toLowerCase();
-      const isValidEmail = emailValue.endsWith("@uniclaretiana.edu.co") || emailValue.endsWith("@miuniclaretiana.edu.co");
+      const isValidEmail = emailValue.endsWith("@dominiocorreo.edu.co") || emailValue.endsWith("@dominiocorreo.edu.co");
 
       if (emailValue.length > 50) {
-        emailInput.style.border = "1px solid red"; // Display red border for invalid length
-        submitBtn.disabled = true; // Disable the submit button
+        emailInput.style.border = "1px solid red"; 
+        submitBtn.disabled = true; 
       } else if (isValidEmail) {
-        emailInput.style.border = "1px solid #ccc"; // Restoring default border color
-        submitBtn.disabled = false; // Enable the submit button
+        emailInput.style.border = "1px solid #ccc"; 
+        submitBtn.disabled = false; 
       } else {
-        emailInput.style.border = "1px solid red"; // Display red border for invalid email
-        submitBtn.disabled = true; // Disable the submit button
+        emailInput.style.border = "1px solid red"; 
+        submitBtn.disabled = true; 
       }
     });
 
     document.getElementById("loginForm").addEventListener("submit", function(event) {
       const emailValue = emailInput.value.trim().toLowerCase();
       
-      if (!emailValue.endsWith("@uniclaretiana.edu.co") && !emailValue.endsWith("@miuniclaretiana.edu.co")) {
+      if (!emailValue.endsWith("@dominiocorreo.edu.co") && !emailValue.endsWith("@dominiocorreo.edu.co")) {
         alert("Credenciales incorrectas");
         event.preventDefault();
       }
